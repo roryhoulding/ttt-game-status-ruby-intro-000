@@ -18,6 +18,6 @@ WIN_COMBINATIONS = [
 
 def won?(board)
   WIN_COMBINATIONS.detect do |x|
-    x == [2,5,8]
+    x == [2,5,9]
   end
 end
