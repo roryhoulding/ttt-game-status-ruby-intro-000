@@ -18,6 +18,6 @@ WIN_COMBINATIONS = [
 
 def won?(board)
   WIN_COMBINATIONS.each do |x|
-    board[x[0]]
+    "hello"
   end
 end
