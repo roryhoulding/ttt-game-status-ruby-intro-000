@@ -17,7 +17,7 @@ WIN_COMBINATIONS = [
 ]
 
 def won?(board)
-  WIN_COMBINATIONS.detect do |x|
+  WIN_COMBINATIONS.each do |x|
     puts board[x[0]]
   end
 end
